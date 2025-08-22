@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+ul.todoItems {
+  list-style: none;
+  padding: 0;
+}
+
+ul.todoItems li.item {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.fa-trash {
+  color: red;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 15px;
+}
+
+form input[type="text"] {
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  cursor: pointer;
+}
