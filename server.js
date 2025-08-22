@@ -43,6 +43,16 @@ app.post('/addTodo', (req,res) => {
 })
 
 
+app.delete('/deleteItem', (req,res) => {
+  db.collection('todos').deleteOne({thing: req.body.itemFromJS})
+  .then(result => {
+    console.log('Item Deleted')
+    res.json('Item Deleted')
+  })
+  .catch(err => console.log(err))
+
+})
+
 
 app.listen(PORT,() =>{
     console.log(`Listinig on port ${PORT}`)
