@@ -49,31 +49,3 @@ Run the app
 npm start
 Visit: http://localhost:2121
 
-📂 Project Structure
-
-Full-Stack-ToDoList/
-├── public/         # Static files (CSS, client JS)
-├── views/          # EJS templates
-├── server.js       # Main Express server
-├── routes/         # Route handlers
-├── models/         # Mongoose models
-├── package.json
-└── .env
-✅ Example Todos
-Fix bug in login form
-
-Refactor server.js routes
-
-Push latest changes to GitHub
-
-Write README.md
-
-Add dark mode toggle
-
-Test /markUnComplete route
-
-Clean up console.log statements
-
-Review pull requests
-
-
