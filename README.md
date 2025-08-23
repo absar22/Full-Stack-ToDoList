@@ -8,7 +8,7 @@ Users can add, delete, and mark tasks as complete or incomplete.
 ## 🚀 Features
 - Add new todos
 - Mark todos as complete ✅ / incomplete ❌
-- Delete todos 🗑️<img width="1916" height="845" alt="Document - Google Chrome 23-08-2025 13_47_48" src="https://github.com/user-attachments/assets/38c6810d-4476-41c9-804c-f8e0fc4d9a5d" />
+- Delete todos 🗑️
 
 - Displays count of remaining tasks
 - Basic developer-themed sample todos (e.g., "Fix bug in login form")
@@ -23,7 +23,7 @@ Users can add, delete, and mark tasks as complete or incomplete.
 ---
 
 ## 📸 Screenshot
-![Todo List Screenshot](![Uploading Document - Google Chrome 23-08-2025 13_47_48.png…]())
+![Todo List Screenshot](<img width="1916" height="845" alt="Document - Google Chrome 23-08-2025 13_47_48" src="https://github.com/user-attachments/assets/38c6810d-4476-41c9-804c-f8e0fc4d9a5d" />)
 
 ---
 
