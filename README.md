@@ -23,7 +23,8 @@ Users can add, delete, and mark tasks as complete or incomplete.
 ---
 
 ## 📸 Screenshot
-![Todo List Screenshot](<img width="1916" height="845" alt="Document - Google Chrome 23-08-2025 13_47_48" src="https://github.com/user-attachments/assets/38c6810d-4476-41c9-804c-f8e0fc4d9a5d" />)
+<img width="1916" height="845" alt="Document - Google Chrome 23-08-2025 13_47_48" src="https://github.com/user-attachments/assets/38c6810d-4476-41c9-804c-f8e0fc4d9a5d" />
+![Todo List Screenshot]()
 
 ---
 
