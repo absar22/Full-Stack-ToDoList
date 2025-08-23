@@ -43,6 +43,29 @@ app.post('/addTodo', (req,res) => {
 })
 
 
+app.put('/markComplete', (req,res) => {
+
+  db.collection('todos').updateOne({thing: req.body.itemFromJS},
+    {
+      $set:{
+        completed:true
+      }
+    },
+    {
+      sort:{_id: -1},
+      upsert: false
+    })
+    .then(result => {
+      console.log('Mark Completed')
+      res.json('Mark Completed')
+    })
+    .catch(err => console.log(err))
+})
+
+
+
+
+
 app.delete('/deleteItem', (req,res) => {
   db.collection('todos').deleteOne({thing: req.body.itemFromJS})
   .then(result => {
