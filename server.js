@@ -57,11 +57,28 @@ app.put('/markComplete', (req,res) => {
     })
     .then(result => {
       console.log('Mark Completed')
-      res.json('Mark Completed')
+      res.json({status: 'success', message: 'Marked Complete'})
     })
     .catch(err => console.log(err))
 })
 
+app.put('/markUnComplete', (req,res) => {
+ db.collection('todos').updateOne({thing: req.body.itemFromJS},
+  {
+    $set:{
+      completed:false
+    }
+  },
+  {
+    sort:{_id: -1},
+    upsert:false
+  })
+  .then(result => {
+    console.log('Marked Uncomplete')
+    res.json({status: 'success', message: 'UnMarked'})
+  })
+  .catch(err => console.log(err))
+})
 
 
 
